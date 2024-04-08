@@ -8,8 +8,6 @@ variable "organization_service_url_VV" {
   description = "Organisation Service URL"
 }
 
-
-
 variable "project_name_VV" {
   type        = string
   description = "Name of Project"
@@ -17,23 +15,20 @@ variable "project_name_VV" {
 
 variable "visibility_mode_VV" {
   type        = string
-  description = "Name of Project Group Role"
+  description = "Name of Visibility mode"
 }
 
 variable "version_control_VV" {
   type        = string
-  description = "Name of Project Group Role"
+  description = "Type of Version control"
 }
 
 variable "work_template_VV" {
   type        = string
-  description = "Name of Project Group Role"
+  description = "Name of work template"
 }
 
 variable "path_folder_VV" {
   type        = string
-  description = "Name of Project Group Role"
+  description = "Path of the folder"
 }
-
-
-
